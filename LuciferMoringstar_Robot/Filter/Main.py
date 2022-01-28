@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('MESSAGE OUR ADMIN', url='https://t.me/ATOM_CINEMAS_ADMIN_BOT'
+                    InlineKeyboardButton('JOIN OUR GROUP, url=f'{TUTORIAL}')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
