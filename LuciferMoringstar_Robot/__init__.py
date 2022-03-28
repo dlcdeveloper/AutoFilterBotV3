@@ -11,11 +11,12 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
+• Basic Commands
 
 /start :- check am Alive
 
-Bot Owner Only
+• Bot Owner Commands 👇
+
 /broadcast Replay Any Message or Media
 /stats user Status
 /ban_user  click ban_user more info
@@ -28,11 +29,19 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  "Kalyani" The Auto Filter Bot
+➥ Name :  "D O R A" The Auto Filter Bot
+
+➥ Version : 3.1.4
     
 ➥ Creator : Akash Achuzzz
+
+➥ Credits : Everyone in this journey
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
+
+➥ Server : Heroku
+
+➥ Database : MongoDB
 """
